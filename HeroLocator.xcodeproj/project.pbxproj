@@ -21,6 +21,8 @@
 		FE25333F196E78260067C553 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE253321196E78260067C553 /* UIKit.framework */; };
 		FE253347196E78260067C553 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE253345196E78260067C553 /* InfoPlist.strings */; };
 		FE253349196E78260067C553 /* HeroLocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE253348196E78260067C553 /* HeroLocatorTests.m */; };
+		FE253353196E783C0067C553 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE253352196E783C0067C553 /* CoreLocation.framework */; };
+		FE253355196E88240067C553 /* fells_loop.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE253354196E88240067C553 /* fells_loop.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		FE253344196E78260067C553 /* HeroLocatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeroLocatorTests-Info.plist"; sourceTree = "<group>"; };
 		FE253346196E78260067C553 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FE253348196E78260067C553 /* HeroLocatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroLocatorTests.m; sourceTree = "<group>"; };
+		FE253352196E783C0067C553 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FE253354196E88240067C553 /* fells_loop.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = fells_loop.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE253353196E783C0067C553 /* CoreLocation.framework in Frameworks */,
 				FE253320196E78260067C553 /* CoreGraphics.framework in Frameworks */,
 				FE253322196E78260067C553 /* UIKit.framework in Frameworks */,
 				FE25331E196E78260067C553 /* Foundation.framework in Frameworks */,
@@ -82,6 +87,7 @@
 		FE253311196E78260067C553 = {
 			isa = PBXGroup;
 			children = (
+				FE253354196E88240067C553 /* fells_loop.gpx */,
 				FE253323196E78260067C553 /* HeroLocator */,
 				FE253342196E78260067C553 /* HeroLocatorTests */,
 				FE25331C196E78260067C553 /* Frameworks */,
@@ -101,6 +107,7 @@
 		FE25331C196E78260067C553 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FE253352196E783C0067C553 /* CoreLocation.framework */,
 				FE25331D196E78260067C553 /* Foundation.framework */,
 				FE25331F196E78260067C553 /* CoreGraphics.framework */,
 				FE253321196E78260067C553 /* UIKit.framework */,
@@ -230,6 +237,7 @@
 			files = (
 				FE253336196E78260067C553 /* Images.xcassets in Resources */,
 				FE253328196E78260067C553 /* InfoPlist.strings in Resources */,
+				FE253355196E88240067C553 /* fells_loop.gpx in Resources */,
 				FE253331196E78260067C553 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
