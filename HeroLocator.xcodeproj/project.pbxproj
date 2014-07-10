@@ -23,6 +23,12 @@
 		FE253349196E78260067C553 /* HeroLocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE253348196E78260067C553 /* HeroLocatorTests.m */; };
 		FE253353196E783C0067C553 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE253352196E783C0067C553 /* CoreLocation.framework */; };
 		FE253355196E88240067C553 /* fells_loop.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE253354196E88240067C553 /* fells_loop.gpx */; };
+		FEBF7A7D196E9B2B00878DD4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBF7A7C196E9B2B00878DD4 /* MapKit.framework */; };
+		FEBF7A80196E9E2A00878DD4 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBF7A7F196E9E2A00878DD4 /* MapViewController.m */; };
+		FEBF7A84196EA4FF00878DD4 /* map-512.png in Resources */ = {isa = PBXBuildFile; fileRef = FEBF7A83196EA4FF00878DD4 /* map-512.png */; };
+		FEBF7A87196EADBE00878DD4 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBF7A86196EADBE00878DD4 /* Bar.m */; };
+		FEBF7A89196EAE6200878DD4 /* bares.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEBF7A88196EAE6200878DD4 /* bares.plist */; };
+		FEBF7A8C196EC33F00878DD4 /* BarList.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBF7A8B196EC33F00878DD4 /* BarList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +63,15 @@
 		FE253348196E78260067C553 /* HeroLocatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroLocatorTests.m; sourceTree = "<group>"; };
 		FE253352196E783C0067C553 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		FE253354196E88240067C553 /* fells_loop.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = fells_loop.gpx; sourceTree = "<group>"; };
+		FEBF7A7C196E9B2B00878DD4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FEBF7A7E196E9E2A00878DD4 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		FEBF7A7F196E9E2A00878DD4 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		FEBF7A83196EA4FF00878DD4 /* map-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-512.png"; sourceTree = "<group>"; };
+		FEBF7A85196EADBE00878DD4 /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
+		FEBF7A86196EADBE00878DD4 /* Bar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bar.m; sourceTree = "<group>"; };
+		FEBF7A88196EAE6200878DD4 /* bares.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bares.plist; sourceTree = "<group>"; };
+		FEBF7A8A196EC33F00878DD4 /* BarList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarList.h; sourceTree = "<group>"; };
+		FEBF7A8B196EC33F00878DD4 /* BarList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEBF7A7D196E9B2B00878DD4 /* MapKit.framework in Frameworks */,
 				FE253353196E783C0067C553 /* CoreLocation.framework in Frameworks */,
 				FE253320196E78260067C553 /* CoreGraphics.framework in Frameworks */,
 				FE253322196E78260067C553 /* UIKit.framework in Frameworks */,
@@ -107,6 +123,7 @@
 		FE25331C196E78260067C553 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FEBF7A7C196E9B2B00878DD4 /* MapKit.framework */,
 				FE253352196E783C0067C553 /* CoreLocation.framework */,
 				FE25331D196E78260067C553 /* Foundation.framework */,
 				FE25331F196E78260067C553 /* CoreGraphics.framework */,
@@ -119,6 +136,7 @@
 		FE253323196E78260067C553 /* HeroLocator */ = {
 			isa = PBXGroup;
 			children = (
+				FEBF7A83196EA4FF00878DD4 /* map-512.png */,
 				FE25332C196E78260067C553 /* AppDelegate.h */,
 				FE25332D196E78260067C553 /* AppDelegate.m */,
 				FE25332F196E78260067C553 /* Main.storyboard */,
@@ -126,6 +144,13 @@
 				FE253333196E78260067C553 /* ViewController.m */,
 				FE253335196E78260067C553 /* Images.xcassets */,
 				FE253324196E78260067C553 /* Supporting Files */,
+				FEBF7A7E196E9E2A00878DD4 /* MapViewController.h */,
+				FEBF7A7F196E9E2A00878DD4 /* MapViewController.m */,
+				FEBF7A85196EADBE00878DD4 /* Bar.h */,
+				FEBF7A86196EADBE00878DD4 /* Bar.m */,
+				FEBF7A88196EAE6200878DD4 /* bares.plist */,
+				FEBF7A8A196EC33F00878DD4 /* BarList.h */,
+				FEBF7A8B196EC33F00878DD4 /* BarList.m */,
 			);
 			path = HeroLocator;
 			sourceTree = "<group>";
@@ -236,6 +261,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE253336196E78260067C553 /* Images.xcassets in Resources */,
+				FEBF7A84196EA4FF00878DD4 /* map-512.png in Resources */,
+				FEBF7A89196EAE6200878DD4 /* bares.plist in Resources */,
 				FE253328196E78260067C553 /* InfoPlist.strings in Resources */,
 				FE253355196E88240067C553 /* fells_loop.gpx in Resources */,
 				FE253331196E78260067C553 /* Main.storyboard in Resources */,
@@ -258,8 +285,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE253334196E78260067C553 /* ViewController.m in Sources */,
+				FEBF7A8C196EC33F00878DD4 /* BarList.m in Sources */,
 				FE25332E196E78260067C553 /* AppDelegate.m in Sources */,
+				FEBF7A87196EADBE00878DD4 /* Bar.m in Sources */,
 				FE25332A196E78260067C553 /* main.m in Sources */,
+				FEBF7A80196E9E2A00878DD4 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +494,7 @@
 				FE25334E196E78260067C553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE25334F196E78260067C553 /* Build configuration list for PBXNativeTarget "HeroLocatorTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +503,7 @@
 				FE253351196E78260067C553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

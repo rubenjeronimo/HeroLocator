@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>lon</key>
+		<real>-3.699</real>
+		<key>lat</key>
+		<real>40.404843</real>
+		<key>name</key>
+		<string>bar tolo</string>
+	</dict>
+	<dict>
+		<key>lon</key>
+		<real>-3.68</real>
+		<key>lat</key>
+		<real>40.402733</real>
+		<key>name</key>
+		<string>bar lovento</string>
+	</dict>
+	<dict>
+		<key>lon</key>
+		<real>-3.712919</real>
+		<key>lat</key>
+		<real>40.403793</real>
+		<key>name</key>
+		<string>bar cenas</string>
+	</dict>
+	<dict>
+		<key>lon</key>
+		<real>-3.723</real>
+		<key>lat</key>
+		<real>40.403801</real>
+		<key>name</key>
+		<string>bar budo</string>
+	</dict>
+	<dict>
+		<key>lon</key>
+		<real>-3.742</real>
+		<key>lat</key>
+		<real>40.403833</real>
+		<key>name</key>
+		<string>bar sa</string>
+	</dict>
+	<dict>
+		<key>lon</key>
+		<real>-3.7419</real>
+		<key>lat</key>
+		<real>40.403828</real>
+		<key>name</key>
+		<string>bar rabas</string>
+	</dict>
+</array>
+</plist>

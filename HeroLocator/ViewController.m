@@ -8,8 +8,9 @@
 
 #import "ViewController.h"
 #import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
 
-@interface ViewController ()<CLLocationManagerDelegate>
+@interface ViewController ()<CLLocationManagerDelegate,MKMapViewDelegate>
 @property float jaw;
 @property (nonatomic,strong) CLLocationManager *manager;
 @end
